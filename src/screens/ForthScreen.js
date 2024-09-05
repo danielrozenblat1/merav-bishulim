@@ -25,11 +25,11 @@ const ForthScreen=()=>{
    <div className={styles.icon}>
    <Player icon={count} size="100%" ref={playerRef1} onComplete={handleComplete} />
    </div>
-   <div className={styles.descriptionB}>יודע/ת מה- אפילו יותר מזה - האוכל היה אוכל מהיר ולא לקח יותר מדי זמן עד שהוא נגמר והילדים היו שוב רעבים…
+   <div className={styles.descriptionB}>יודע/ת מה- אפילו יותר מזה - האוכל היה אוכל תעשייתי ולא לקח יותר מדי זמן עד שהוא נגמר והילדים היו שוב רעבים…
    </div>
    <div className={styles.descriptionB}>וכאן אני נכנסת לתמונה</div>
   <ThirdScreen/>
-  <div className={styles.description}>תלחצ/י על הכפתור הבא ותעשה את הצעד הראשון בלחסוך אלפי שקלים בחודש!</div>
+  <div className={styles.description}>תלחצ/י על הכפתור הבא ותעש/י את הצעד הראשון בלחסוך אלפי שקלים בחודש!</div>
   <Button text="לחץ כאן לשיחת ייעוץ ללא עלות"/>
 </>  
 
