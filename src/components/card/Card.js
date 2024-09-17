@@ -8,7 +8,7 @@ const InfoBox = ({ title, imageUrl, description }) => {
       <h2 className={styles.title}>{title}</h2>
       <img src={imageUrl} alt={title} className={styles.image} />
       <p className={styles.description}>{description}</p>
-      <Button text="לעוד מידע" message="היי מירב, התרשמתי מסגנונות ההגשה שלך - אשמח לשמוע עוד על..." />
+      <Button text="לעוד מידע" message="היי מירב התרשמתי מהתפריט שלך אשמח לקבל פרטים נוספים" />
     </div>
   );
 };
