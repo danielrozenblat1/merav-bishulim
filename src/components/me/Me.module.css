@@ -1,0 +1,166 @@
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px 0 ;
+    background-color: white;
+    color: #D61311;
+    direction: rtl;
+}
+
+.title {
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 20px;
+    font-family: 'Assistant';
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 30px;
+}
+
+.info {
+    flex: 3;
+    text-align: right;
+}
+
+.name {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    font-family: 'AssistantR';
+    font-weight: 400;
+}
+
+.description {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    font-family: 'AssistantR';
+
+}
+
+.imageContainer {
+    flex: 1;
+}
+
+.image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.7);
+}
+
+/* Responsive styles */
+@media (max-width: 350px) {
+    .container {
+        padding: 20px;
+    }
+    .title {
+        font-size: 2rem;
+        margin-bottom: 20px;
+    }
+    .content {
+        flex-direction: column-reverse;
+        gap: 20px;
+    }
+    .name {
+        font-size: 1.8rem;
+        margin-bottom: 15px;
+    }
+    .description {
+        font-size: 1rem;
+    }
+}
+
+@media (min-width: 350px) and (max-width: 450px) {
+    .container {
+        padding: 25px;
+    }
+    .title {
+        font-size: 2.2rem;
+        margin-bottom: 25px;
+    }
+    .content {
+        flex-direction: column-reverse;
+        gap: 25px;
+    }
+    .name {
+        font-size: 2rem;
+    }
+    .description {
+        font-size: 1.05rem;
+    }
+    .image{
+        width: 80%;
+        margin:0 auto;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media (min-width: 450px) and (max-width: 550px) {
+    .container {
+        padding: 30px;
+    }
+    .title {
+        font-size: 2.4rem;
+        margin-bottom: 30px;
+    }
+    .content {
+        flex-direction: column-reverse;
+        gap: 30px;
+    }
+    .name {
+        font-size: 2.2rem;
+    }
+    .image{
+        width: 65%;
+        margin:0 auto;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media (min-width: 550px) and (max-width: 750px) {
+    .content {
+        flex-direction: column-reverse;
+        gap: 35px;
+    }
+    .name {
+        font-size: 2.3rem;
+    }
+    .image{
+        width: 55%;
+        margin:0 auto;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media (min-width: 750px) and (max-width: 950px) {
+    .title {
+        font-size: 2.5rem;
+    }
+    .content {
+        gap: 20px;
+        align-items: center;
+    }
+    .name {
+        font-size: 2rem;
+    }
+    .description{
+        font-size: 1rem;
+    }
+}
+
+@media (min-width: 950px) and (max-width: 1150px) {
+    .title {
+        font-size: 2.8rem;
+    }
+    .content {
+        gap: 20px;
+        align-items: center;
+    }
+}

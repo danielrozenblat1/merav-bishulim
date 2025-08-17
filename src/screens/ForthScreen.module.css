@@ -1,0 +1,171 @@
+.title {
+    font-size: 3rem;
+    font-family: "Assistant";
+    text-align: center;
+    margin: 2% auto;
+    text-decoration: underline;
+}
+
+.description, .descriptionB {
+    margin: 2% auto;
+    color: #D61311;
+    direction: rtl;
+    font-size: 1.4rem;
+    text-align: center;
+    width: 80%; /* Default width for larger screens */
+}
+
+.descriptionB {
+    font-family: "Assistant";
+}
+
+.description {
+    font-family: "Assistantr";
+}
+
+.icon {
+    display: flex;
+    margin: 0 auto;
+    width: 20%;
+}
+
+/* Responsive styles */
+@media (max-width: 350px) {
+    .title {
+        font-size: 1.8rem;
+        margin: 1.5% auto;
+    }
+    .description, .descriptionB {
+        font-size: 1rem;
+        margin: 1.5% auto;
+        width: 90%; /* Widest on smallest screens */
+    }
+    .icon {
+        width: 40%;
+    }
+}
+
+@media (min-width: 350px) and (max-width: 450px) {
+    .title {
+        font-size: 2rem;
+        margin: 1.6% auto;
+    }
+    .description, .descriptionB {
+        font-size: 1.1rem;
+        margin: 1.6% auto;
+        width: 88%;
+    }
+    .icon {
+        width: 35%;
+    }
+}
+
+@media (min-width: 450px) and (max-width: 550px) {
+    .title {
+        font-size: 2.2rem;
+        margin: 1.7% auto;
+    }
+    .description, .descriptionB {
+        font-size: 1.2rem;
+        margin: 1.7% auto;
+        width: 86%;
+    }
+    .icon {
+        width: 30%;
+    }
+}
+
+@media (min-width: 550px) and (max-width: 650px) {
+    .title {
+        font-size: 2.4rem;
+        margin: 1.8% auto;
+    }
+    .description, .descriptionB {
+        font-size: 1.25rem;
+        margin: 1.8% auto;
+        width: 84%;
+    }
+    .icon {
+        width: 28%;
+    }
+}
+
+@media (min-width: 650px) and (max-width: 750px) {
+    .title {
+        font-size: 2.6rem;
+        margin: 1.9% auto;
+    }
+    .description, .descriptionB {
+        font-size: 1.3rem;
+        margin: 1.9% auto;
+        width: 82%;
+    }
+    .icon {
+        width: 26%;
+    }
+}
+
+@media (min-width: 750px) and (max-width: 850px) {
+    .title {
+        font-size: 2.7rem;
+    }
+    .description, .descriptionB {
+        font-size: 1.33rem;
+        width: 81%;
+    }
+    .icon {
+        width: 24%;
+    }
+}
+
+@media (min-width: 850px) and (max-width: 950px) {
+    .title {
+        font-size: 2.8rem;
+    }
+    .description, .descriptionB {
+        font-size: 1.35rem;
+        width: 80%;
+    }
+    .icon {
+        width: 22%;
+    }
+}
+
+@media (min-width: 950px) and (max-width: 1050px) {
+    .title {
+        font-size: 2.9rem;
+    }
+    .description, .descriptionB {
+        font-size: 1.37rem;
+        width: 80%;
+    }
+    .icon {
+        width: 21%;
+    }
+}
+
+@media (min-width: 1050px) and (max-width: 1150px) {
+    .title {
+        font-size: 2.95rem;
+    }
+    .description, .descriptionB {
+        font-size: 1.38rem;
+        width: 80%;
+    }
+    .icon {
+        width: 20.5%;
+    }
+}
+
+@media (min-width: 1150px) and (max-width: 1250px) {
+    .title {
+        font-size: 3rem;
+    }
+    .description, .descriptionB {
+        font-size: 1.4rem;
+        width: 80%;
+    }
+    .icon {
+        width: 20%;
+    }
+}

@@ -1,0 +1,7 @@
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin:2% auto;
+    flex-wrap: wrap;
+}

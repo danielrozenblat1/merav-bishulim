@@ -1,0 +1,109 @@
+.transparentBox {
+  background: whitesmoke;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  border-radius: 8px;
+  display: flex;
+  width: 350px;
+  height: 200px;
+  margin:10px auto;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 15px;
+}
+
+.title {
+  font-family: "Assistant";
+  color: rgb(204, 0, 20);
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+.icon {
+  width: 35%;
+}
+
+/* Responsive styles */
+@media (max-width: 350px) {
+  .transparentBox {
+      width: 80%;
+      height: auto;
+      min-height: 180px;
+      padding: 15px;
+      gap: 10px;
+  }
+  .title {
+      font-size: 1.2rem;
+  }
+  .icon {
+      width: 30%;
+  }
+}
+
+@media (min-width: 350px) and (max-width: 450px) {
+  .transparentBox {
+      width: 80%;
+      height: auto;
+      min-height: 190px;
+      padding: 18px;
+      gap: 12px;
+  }
+  .title {
+      font-size: 1.3rem;
+  }
+  .icon {
+      width: 32%;
+  }
+}
+
+@media (min-width: 450px) and (max-width: 550px) {
+  .transparentBox {
+      width: 300px;
+      height: auto;
+      min-height: 195px;
+  }
+  .title {
+      font-size: 1.4rem;
+  }
+  .icon {
+      width: 33%;
+  }
+}
+
+@media (min-width: 550px) and (max-width: 650px) {
+  .transparentBox {
+      width: 320px;
+  }
+  .title {
+      font-size: 1.45rem;
+  }
+  .icon {
+      width: 34%;
+  }
+}
+
+@media (min-width: 650px) and (max-width: 750px) {
+  .transparentBox {
+      width: 330px;
+  }
+}
+
+@media (min-width: 750px) and (max-width: 850px) {
+  .transparentBox {
+      width: 340px;
+  }
+}
+
+@media (min-width: 850px) and (max-width: 950px) {
+  .transparentBox {
+      width: 345px;
+  }
+}
+
+@media (min-width: 950px) {
+  .transparentBox {
+      width: 350px;
+  }
+}

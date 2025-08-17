@@ -1,0 +1,164 @@
+.description {
+    background-color: #D61311;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 18px;
+    text-align: center;
+    font-family: "AssistantR";
+    margin-bottom: 20px;
+
+}
+.image{
+    display: flex;
+    width:5%;
+    justify-content: center;
+    margin: 0 auto;
+}
+.logo{
+    width: 100%;
+    object-fit: contain;
+}
+.title {
+    color: #D61311;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: "Assistant";
+    text-align: center;
+    line-height: 1.4;
+}
+
+/* Responsive styles */
+@media (max-width: 350px) {
+    .description {
+        font-size: 14px;
+        padding: 8px 16px;
+   
+    }
+    .title {
+        font-size: 20px;
+        margin:0 auto 15px;
+        width:90%;
+    }
+    .image{
+        display: flex;
+        width:20%;
+        justify-content: center;
+        margin: 0 auto;
+    }
+}
+
+@media (min-width: 350px) and (max-width: 450px) {
+    .description {
+        font-size: 15px;
+        padding: 9px 18px;
+   
+    }
+    .title {
+        font-size: 21px;
+        margin:0 auto 15px;
+        width:90%;
+    }
+    .image{
+        display: flex;
+        width:15%;
+        justify-content: center;
+        margin: 0 auto;
+    }
+}
+
+@media (min-width: 450px) and (max-width: 550px) {
+    .description {
+        font-size: 16px;
+    }
+    .title {
+        font-size: 22px;
+        margin:0 auto 15px;
+        width:90%;
+    }
+    .image{
+        display: flex;
+        width:12%;
+        justify-content: center;
+        margin: 0 auto;
+    }
+}
+
+@media (min-width: 550px) and (max-width: 650px) {
+    .description {
+        font-size: 17px;
+    }
+    .title {
+        font-size: 23px;
+        margin:0 auto 15px;
+        width:95%;
+    }
+    .image{
+        display: flex;
+        width:12%;
+        justify-content: center;
+        margin: 0 auto;
+    }
+}
+
+@media (min-width: 650px) and (max-width: 750px) {
+    .description {
+        padding: 11px 22px;
+        
+    }
+    .image{
+        display: flex;
+        width:10%;
+        justify-content: center;
+        margin: 0 auto;
+    }
+}
+
+@media (min-width: 750px) and (max-width: 850px) {
+    .title {
+        font-size: 24px;
+        margin:0 auto;
+        width:90%;
+    }
+    .image{
+        display: flex;
+        width:8%;
+        justify-content: center;
+        margin: 0 auto;
+    }
+}
+
+@media (min-width: 850px) and (max-width: 950px) {
+    .description {
+        font-size: 18px;
+    }
+    .image{
+        display: flex;
+        width:7%;
+        justify-content: center;
+        margin: 0 auto;
+    }
+}
+
+@media (min-width: 950px) and (max-width: 1050px) {
+    .title {
+        font-size: 25px;
+        width:95%;
+        margin:0 auto 15px;
+    }
+}
+
+@media (min-width: 1050px) and (max-width: 1150px) {
+    .description {
+        padding: 12px 24px;
+    }
+}
+
+@media (min-width: 1150px) and (max-width: 1250px) {
+    .description {
+        font-size: 19px;
+    }
+    .title {
+        font-size: 26px;
+    }
+}
